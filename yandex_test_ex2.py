@@ -25,7 +25,7 @@ def validation_one(login):
         print ("Логин принят")
 
 def validation_two(login):
-    pattern = re.compile("^[A-Za-z][A-Za-z0-9.-]{0,19}[A-Za-z0-9]?$")
+    pattern = re.compile("^[A-Za-z][A-Za-z0-9.-]{0,18}[A-Za-z0-9]?$")
     if pattern.match(login):
         print ("Логин принят")
     else:
