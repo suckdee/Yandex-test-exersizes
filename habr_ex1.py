@@ -31,7 +31,7 @@ def multiplication_table():
         for n in range(a,b):
             print (str(m) + "x" + str(n) +  "=" + str(m*n))
     else:
-        print ("Число a должно быть меньше числа b")
+        print "Число a должно быть меньше числа b"
 
 
 
