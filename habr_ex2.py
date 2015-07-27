@@ -47,11 +47,12 @@ def aon(phone_number):
         elif last_digit == n and tel_without_noises[-1] == n:
             tel_without_noises += '#'
         last_digit = n
-    print (tel_without_noises)
+    final_number = tel_without_noises
+    print (final_number)
 
 
 def main():
-    tring_encode()
+    string_encode()
     longest_word()
     aon(" 4434###552222311333661")
 
